@@ -1,153 +1,77 @@
+/* RESPONSIVE */
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .hero-inner {
+    width: 70%;
+  }
+  .main-line {
+    font-size: 1em;
+  }
+  .secondary-line {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .sec-left {
+    width: 100%;
+    float: none;
+    margin-left: 20px;
+  }
+  .sec-right {
+    max-width: 100%;
+    float: none;
+    margin-right: 20px;
+  }
+  .section-product {
+    width: 100%;
+  }
+  .section-color {
+    width: 100%;
+  }
+  .description {
+    display: none;
+  }
+  .info {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .game-sec {
+    display: none;
+  }
+  img {
+    max-width: 70%;
+  }
+  .footer-right {
+    display: none;
+  }
+}
+
+
+
+
+/* LAYOUT */
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-
-button {
-  background-color: #00B4FF;
-  font-size: 1.5em;
-  color: #FFF;
-  border: none;
-  padding: 25px;
-  margin-left: 10%;
-}
-
-button:hover {
-  background-color: #00a1e6;
-}
-
 .contact-section {
   height: 400px;
   margin-bottom: 200px;
 }
-
-.contact-form {
-  height: 25px;
-  width: 80%;
-  margin-top: 20px;
-  padding: 5px;
-}
-
-textarea {
-  font-family: 'Open Sans', sans-serif;
-  border: 1px solid #cccccc;
-}
-
-textarea::placeholder {
-  font-family: 'Open Sans', sans-serif;
-  height: auto;
-}
-
-textarea:focus {
-  border: 1px solid #8c8c8c;
-  outline: none;
-}
-
-input {
-  border: 1px solid #cccccc;
-}
-
-input:focus {
-  border: 1px solid #8c8c8c;
-  outline: none;
-}
-
-
-.buy {
-  padding: 10px;
-  width: 250px;
-  margin-left: 0px;
-}
-
-.nav {
-  height: 50px;
-  background-color: #332F30;
-}
-
-.nav-btn {
-  height: 100%;
-  line-height: 50px;
-  vertical-align: middle;
-  margin-right: 10px;
-  text-align: center;
-  color: #FFF;
-}
-
-.right {
-  float: right;
-  width: 100px;
-}
-
-.left {
-  float: left;
-  margin-left: 10px;
-  width: 200px;
-  font-family: 'Press Start 2P', cursive;
-}
-
-a {
-  text-decoration: none;
-  color: #FFF;
-}
-
-.nav-btn:hover {
-  background-color: #444243;
-}
-
-.hero {
-  height: 90vh;
-  display: flex;
-  padding-left: 30px;
-
-  /* Image and transparency */
-  background-image: linear-gradient(to right bottom, rgba(81,81,81, 0.9), rgba(0, 125, 179, 0.8)), url(/img/retrogaming.jpg);
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 85%);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-
-.hero-inner {
-  width: 50%;
-  margin-top: 20px;
-}
-
-.main-line {
-  color: #FFF;
-  font-size: 4em;
-  font-family: 'Press Start 2P', cursive;
-}
-
-.secondary-line {
-  font-size: 1.8em;
-  color: #C3C6C8;
-}
-
-.register {
-  border: 2px solid grey;
-}
-
-.btn-action {
-  background-color: #DCE9BE;
-  border: 0px;
-  height: 60px;
-  width: 180px;
-  border-radius: 5px;
-  color: white;
-  font-size: 1em;
-}
-
 .info {
   vertical-align: 50%;
 }
-
 .section-color {
   margin: 100px 0px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   background-color: #444243;
-  color: #FFF;
+  color: #fff;
   font-size: 2em;
   height: 500px;
   display: flex;
@@ -155,12 +79,10 @@ a {
   align-items: center;
   text-align: center;
 }
-
 .section-product {
   margin: 200px 0;
   height: 300px;
 }
-
 .sec-left {
   width: 45%;
   height: 100%;
@@ -168,33 +90,22 @@ a {
   text-align: right;
   margin-right: 5%;
 }
-
 .sec-right {
   width: 40%;
   height: 100%;
   float: left;
 }
-
 .product-name {
   font-size: 2em;
   font-weight: bold;
 }
-
 .description {
   color: #444243;
 }
-
 .gameboy {
   margin-left: 10%;
   width: 40%;
 }
-
-footer {
-  height: 250px;
-  background-color: #332F30;
-  color: #FFF;
-}
-
 .container {
   width: 80%;
   margin-left: auto;
@@ -202,13 +113,30 @@ footer {
   margin: auto;
   padding-top: 100px;
 }
-
 .title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 3em;
   width: 100%;
 }
-
+.game-sec {
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  margin-bottom: 200px;
+}
+.itembox {
+  width: 20%;
+  text-align: center;
+  float: left;
+  height: 400px;
+}
+.game {
+  width: 90%;
+  max-height: 70%;
+}
+.pregunta {
+  text-align: left;
+}
 .question-list {
   text-align: left;
   font-size: 1.3em;
@@ -216,12 +144,143 @@ footer {
   margin-bottom: 200px;
 }
 
+/* HERO SECTION */
+.hero {
+  height: 90vh;
+  display: flex;
+  padding-left: 30px;
+
+  /* Image and transparency */
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(81, 81, 81, 0.9),
+      rgba(0, 125, 179, 0.8)
+    ),
+    url(/img/retrogaming.jpg);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 85%);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero-inner {
+  width: 50%;
+  margin-top: 20px;
+}
+.main-line {
+  color: #fff;
+  font-size: 4em;
+  font-family: "Press Start 2P", cursive;
+}
+.secondary-line {
+  font-size: 1.8em;
+  color: #c3c6c8;
+}
+
+/* BUTTONS */
+button {
+  background-color: #00b4ff;
+  font-size: 1.5em;
+  color: #fff;
+  border: none;
+  padding: 25px;
+  margin-left: 10%;
+}
+button:hover {
+  background-color: #00a1e6;
+}
+.suscribe {
+  width: 40%;
+}
+.buy {
+  padding: 10px;
+  width: 200px;
+  margin-left: 0px;
+}
+.nav {
+  height: 50px;
+  background-color: #332f30;
+}
+.nav-btn {
+  height: 100%;
+  line-height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+  text-align: center;
+  color: #fff;
+}
+.right {
+  float: right;
+  width: 100px;
+}
+.left {
+  float: left;
+  margin-left: 10px;
+  width: 200px;
+  font-family: "Press Start 2P", cursive;
+}
+.nav-btn:hover {
+  background-color: #444243;
+}
+
+
+/* FORMS */
+textarea {
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #cccccc;
+}
+textarea::placeholder {
+  font-family: "Open Sans", sans-serif;
+  height: auto;
+}
+textarea:focus {
+  border: 1px solid #8c8c8c;
+  outline: none;
+}
+input {
+  border: 1px solid #cccccc;
+}
+input:focus {
+  border: 1px solid #8c8c8c;
+  outline: none;
+}
+.contact-form {
+  height: 25px;
+  width: 80%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+/* NAVIGATION */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  height: 300px;
+  background-color: #332f30;
+  color: #fff;
+  padding-top: 30px;
+}
 li {
   margin-bottom: 10px;
   color: #000;
   text-decoration: underline;
 }
-
-.pregunta {
-  text-align: left;
+.footer-li {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-li:hover {
+  text-decoration: underline;
+}
+.footer-right {
+  width: 50%;
+  background-color: red;
+}
+.footer-left {
+  width: 50%;
+  float: left;
 }

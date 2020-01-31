@@ -14,9 +14,15 @@
 
     <nav>
         <div class="nav">
-            <a href="/"><div class="nav-btn left">JoystickJoy</div></a>
-            <a href="#contacto"><div class="nav-btn right">Contacto</div></a>
-            <a href="faq.html"><div class="nav-btn right">Preguntas</div></a>
+            <a href="/">
+                <div class="nav-btn left">JoystickJoy</div>
+            </a>
+            <a href="#contacto">
+                <div class="nav-btn right">Contacto</div>
+            </a>
+            <a href="faq.html">
+                <div class="nav-btn right">Preguntas</div>
+            </a>
             <div class="nav-btn right">Consolas</div>
             <div class="nav-btn right">Juegos</div>
         </div>
@@ -26,7 +32,7 @@
         <div class="hero-inner">
             <h3 class="main-line">Revive.<br>Juega.</h3>
             <h3 class="secondary-line">Descubre la variedad de juegos <br>y consolas retro que tenemos para ti</h3>
-            <button>¡Quiero saber más!</button>
+            <button>Buscar en la tienda</button>
         </div>
     </section>
 
@@ -47,10 +53,7 @@
     </div>
 
     <div class="section-color">
-        <p class="info">
-            Encuentra aquella consola que te dio tantas horas de felicidad.
-
-        </p>
+        <p class="info">Juega como niño</p>
     </div>
 
     <div class="section-product">
@@ -77,14 +80,54 @@
         <div class="sec-left"><img src="/img/PS2.png" alt="Dreamcast" height="100%"></div>
         <div class="sec-right">
             <h3 class="product-name">PlayStation 2</h3>
-            <p class="description">Dreamcast (ドリームキャスト) es la sexta y última consola de videojuegos hasta ahora
-                producida por Sega.
-                Fue desarrollada en cooperación con Hitachi y Microsoft. Dreamcast es la sucesora de Sega Saturn y fue
-                lanzada al mercado para
-                ganar terreno a PlayStation de Sony y Nintendo 64 de Nintendo, y competir con los sistemas sucesores a
-                estos.
-                Pertenece a la sexta generación de consolas. Se detuvo su producción el 31 de marzo de 2001
-                tras la decisión de Sega de dedicarse en exclusiva a la programación de videojuegos.</p>
+            <p class="description">La PlayStation 2 es la segunda videoconsola de sobremesa producida por Sony Computer
+                Entertainment y la sucesora de PlayStation. Fue lanzada por primera vez el 4 de marzo del año 2000 en
+                Japón,
+                y unos meses después en el resto del mundo.</p>
+            <button class="buy">Comprar</button>
+        </div>
+    </div>
+
+    <div class="game-sec">
+
+        <div class="itembox">
+            <img src="./img/donkeykong.jpeg" alt="donkeykong" class="game"><br>
+            <p>
+                <b>Donkey Kong</b><br>
+                Nintendo GameBoy
+            </p>
+            <button class="buy">Comprar</button>
+        </div>
+        <div class="itembox">
+            <img src="./img/papermario.jpeg" alt="paper mario" class="game"><br>
+            <p>
+                <b>Paper Mario</b><br>
+                Nintendo GameCube
+            </p>
+            <button class="buy">Comprar</button>
+        </div>
+        <div class="itembox">
+            <img src="./img/smash.jpeg" alt="smash" class="game"><br>
+            <p>
+                <b>Super Smash Bros Melee</b><br>
+                Nintendo GameCube
+            </p>
+            <button class="buy">Comprar</button>
+        </div>
+        <div class="itembox">
+            <img src="./img/marioparty.jpeg" alt="marioparty" class="game"><br>
+            <p>
+                <b>Mario Party 2</b><br>
+                Nintendo 64
+            </p>
+            <button class="buy">Comprar</button>
+        </div>
+        <div class="itembox">
+            <img src="./img/sonic.jpeg" alt="dSonic" class="game"><br>
+            <p>
+                <b>Sonic the Hedgehog</b><br>
+                Sega Genesis
+            </p>
             <button class="buy">Comprar</button>
         </div>
     </div>
@@ -96,7 +139,8 @@
             <p>
                 ¿Tienes alguna duda? Estamos aquí para ayudarte, ¡escríbenos!
                 <input type="email" placeholder="Tu correo aqui" class="contact-form">
-                <textarea style="min-height:75px; height:100%;" placeholder="Escribe tu duda aqui" class="contact-form"></textarea>
+                <textarea style="min-height:75px; height:100%;" placeholder="Escribe tu duda aqui"
+                    class="contact-form"></textarea>
             </p>
             <button class="buy">Enviar</button>
         </div>
@@ -104,8 +148,30 @@
 
 
     <footer>
-        Contactanos
-    </footer>
+        <div class="sec-left">
+          <h3>No te pierdas de ninguna oferta</h3>
+          <p>Suscríbete a nuestro boletín</p>
+          <input
+            type="email"
+            placeholder="Tu correo aqui"
+            class="contact-form suscribe"
+            style="height: 35px; margin-bottom: 10px;"
+          /><br />
+          <button class="buy">Enviar</button>
+        </div>
+        <div class="sec-right">
+          <ul>
+            <a href="faq.html">
+              <li class="footer-li">Preguntas frecuentes</li>
+            </a>
+            <li class="footer-li">Tienda</li>
+            <li class="footer-li">Sobre nosotros</li>
+            <a href="./index.html#contacto">
+              <li class="footer-li">Contacto</li>
+            </a>
+          </ul>
+        </div>
+      </footer>
 </body>
 
 </html>
