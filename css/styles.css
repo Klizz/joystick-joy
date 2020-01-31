@@ -156,7 +156,7 @@ body {
       rgba(81, 81, 81, 0.9),
       rgba(0, 125, 179, 0.8)
     ),
-    url(/img/retrogaming.jpg);
+    url(../img/retrogaming.jpg);
   clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 85%);
   background-size: cover;
   background-position: top;
